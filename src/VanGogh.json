@@ -1,0 +1,56 @@
+{
+	"overview": {
+		"names": ["Thomas Tran", "Avril Yang", "Tianxin Xue"],
+		"roles": ["Prototyping", "Secondary Research", "User Testing", "C# Programmer", "3D Modelling", "Texture & Shader Artist"],
+		"tools": ["Unity", "Photoshop", "Oculus Quest","Figma", "Blender", "C#" ],
+		"desc": ["Dear van Gogh was a immersive media research project in Virtual Reality intended to explore immersion as well as the relationship between Vincent and Theo van Gogh. You visit Vincent van Gogh's memories from the periods of 1888 - 1890. As memories replay themselves through the paintings, you experience dialogue between Vincent and Theo van Gogh to understand what was happening during the period the painting was created."],
+		"title": ["Overview"],
+		"length": ["4 months"],
+		"deliverable": ["Virtual Reality App", "Video Trailer", "Project Journey Video"]
+	},
+	"about": {
+		"desc": ["Vincent van Gogh is a world reknowned Impressionist painter in an era where the Impressionist movement was looked down upon as a practice for amateurs. He alongside other painters were creditted with pioneering the movement. The immersive experience intends to showcase a perspective of Vincent's life that is not commonly seen, that which is the influence his younger brother Theo van Gogh had on Vincent's life and career."],
+		"title": ["Preface"]
+	},
+	"immersion": {
+		"desc": ["Before we even began to build an immersive experience, we questioned what we even knew about the word 'immersion', as it is a convulated word. A research paper titled 'Spatial Immersion versus Emotional Immersion, Which is More Immersive?' conducted by Dr.Andrew Perkis, a multimedia researcher at the Norwegian University of Science and Tech highlights 2 different types of Immersion:"],
+		"title": ["What is Immersion?"],
+		"desc2": ["Spatial Immersion: Sensory appeal triggered and maintained by the spatial qualities of the virtual environment. Does the environment make the user feel like they could walk through and interact with it?", "Emotional Immersion: Arousal by the narrative content of a story. An example of this is when a major character dies in a story and the user feels genuine sadness from the death."]
+	},
+	"insights": {
+		"desc": ["The research paper ultimately concluded that appeal to emotional immersion played a larger role in creating a complete and meaningful experience amongst participants. Whereas appeal to spatial immersion plays a more secondary role in appealing to empathetic feelings of participants. Spatial immersion is still important in that not appealing to spatial immersion in a virtual environment would often lead participants to feelings of motion sickness, vertigo, etc. "],
+		"title": ["Insights from Research"]
+	},
+	"insights2": {
+		"title": "The Relationship Between Theo and Vincent van Gogh ",
+		"desc": ["Letters written between Theo and Vincent are well documented, archived and accessed online which we used as in-experience dialogue. Vincent although unemployed would send his paintings to Theo for him to sell. In return for the paintings, Theo would provide a small allowance for living expenses as well as expenses for canvases and oil paint. Although many doubted Vincent, he really would not have the legendary artist known today if it was not for Theo's near unconditional support."]
+	},
+	"interaction": {
+		"title": "An Interaction Idea",
+		"desc": ["The team came up with the idea of painting on an empty canvas as a point to transition in to the next scene to create a sense of enticement to slowly reveal the scene a user will experience next."]
+	},
+	"usertest": {
+		"title": "User Testing",
+		"desc": ["We were not sure what type of influence having to paint a Van Gogh painting would have on users, whether it would create a sense of connection between themselves and the painting or not. So I designed a small workshop that is structured as the following: "],
+		"desc2": ["Pick a Van Gogh painting from a series of given paintings", "Take 1 minute to analyse the painting, then write down anything notable about the chosen painting whether it be an associated feeling or a specific detail, if anything at all.", "For 10 minutes, paint the chosen painting on Aggie.io (a web-based painting and illustration app)", "After submitting their painting, write down any changes in details they noticed or how they felt about the painting or the experience of painting."]
+	},
+	"results": {
+		"title": "User Test Results",
+		"desc": ["Out of the 8 participants, 2 did not paint a replica of their chosen painting but rather painted an image that replicated the emotions they felt from analyzing the painting. However, in all instances, participants felt immediately intimidated by having to paint a Van Gogh, despite being told this was not a skill-required exercise."],
+		"desc2": ["The results showed us that some users did have a strong emotional association with their chosen paintings, but revealed several underlying problems of the interaction idea. That is, users feeling intimidated and users often asking for more time to continue their painting."]
+	},
+	"changes": {
+		"title": "Intervention",
+		"desc": ["Because we did not want users to take too long painting as the painting interaction is not the main focus of the experience, as well as feel intimidated by having to paint, I proposed to change the interaction slightly. Instead of actually painting in the virtual environment, we reveal an underlying painting with the virtual paintbrush to simulate a feeling of painting minus the time and emotional constraint."]
+	},
+	"conclusion": {
+		"title": "Conclusion",
+		"desc": "Eventually, we had to scope down on the events featured in the experience because of how long it took to model each of the environments. Although the public showcase of our project was well-received, I would regard the project as a failure to effectively encapsulate the development of the brotherly relationship in Vincent van Gogh's journey to become a reknowned Impressionist painter due to how much we had to scope down from the experience. The following video summarizes the entire experience."
+	},
+	"takeaways": {
+		"title": "Learning Takeaways",
+		"desc": "Many lessons were learned from software skills, to scoping and time management, but the most meaningful takeaway for me was what I learned about the lives of Vincent and Theo van Gogh beyond what is commonly known. Often Vincent van Gogh is portrayed as a legendary artist plagued with insanity, but details of his life from the start and end of his career, as well as his dialogues with Theo revealed just how well put together his thoughts really were, as opposed to an artist that lost his mind."
+	}
+
+
+}

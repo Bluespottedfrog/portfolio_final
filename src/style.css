@@ -1,0 +1,311 @@
+/* FONTS */
+@font-face{
+  font-family: 'GT America';
+  src: url('./assets/fonts/GT-America-Standard-Regular-Trial.otf') format('opentype');
+  font-weight: 400;
+}
+@font-face{
+  font-family: 'GT America';
+  src: url('./assets/fonts/GT-America-Expanded-Bold-Trial.otf') format('opentype');
+  font-weight: 600;
+}
+@font-face{
+  font-family: 'GT America';
+  src: url('./assets/fonts/GT-America-Extended-Bold-Trial.otf') format('opentype');
+  font-weight: 500;
+}
+@font-face{
+  font-family: 'GT America';
+  src: url('./assets/fonts/GT-America-Standard-Light-Trial.otf') format('opentype');
+  font-weight: 300;
+}
+@font-face{
+  font-family: 'GT America Mono';
+  src: url('./assets/fonts/GT-America-Mono-Light-Trial.otf') format('opentype');
+  font-weight: 400;
+}
+@font-face{
+  font-family: 'GT America';
+  src: url('./assets/fonts/GT-America-Standard-Medium-Trial.otf') format('opentype');
+  font-weight: 200;
+}
+
+body {
+  display: flex;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family:
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--dark);
+  overflow-x: hidden;
+}
+
+body::-webkit-scrollbar{
+  display: none;
+}
+:root{
+  --dark: #101010;
+  --light: #EDEDED;
+
+}
+
+/* TYPE */
+h1,h2,h4,h5, h6,p{
+  font-family: 'GT America';
+  color: var(--light);
+  margin: 0;
+
+
+
+}
+h1{
+  font-size: 1.75rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+h2{
+  font-size: 1.5rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+
+}
+h5{
+  font-size: 1rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+h3{
+  font-family: 'GT America Mono';
+  font-size: 0.85rem;
+  font-weight: 400;
+  color: var(--light);
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+}
+h4{
+  font-size: 0.85rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+}
+h6{
+  font-size: 3rem;
+  font-weight: 300;
+  line-height: 4rem;
+}
+p{
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: #A1A1A1;
+}
+p.detail{
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+p.label{
+  color: #A1A1A1;
+  font-weight: 300;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+p.quote{
+  color: #A1A1A1;
+  font-weight: 300;
+  font-size: 2rem;
+  line-height:2.5rem;
+  margin-bottom: 0.5rem;
+}
+p.quote-source{
+  color: #A1A1A1;
+  font-weight: 300;
+  font-size: 0.85rem;
+}
+/* HELPERS */
+
+/*CONTAINERS*/
+.container{
+  width: 100vw;
+  height: 100vh;
+}
+.wrapper{
+  width:100vw;
+}
+
+.flex{
+  display: flex;
+}
+
+.col{
+  flex-direction: column;
+}
+.row{
+  flex-direction: row;
+}
+
+.abs{
+  position: absolute;
+}
+
+.center{
+  justify-content: center;
+  align-items: center;
+}
+.image-track {
+  display: flex;
+  gap: 4vmin;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(0%, -50%);
+
+
+  user-select: none; /* -- Prevent image highlighting -- */
+}
+
+.image-track > .image {
+  width: 40vmin;
+  height: 56vmin;
+  object-fit: cover;
+  object-position: 100% center;
+}
+
+/* COMPONENTS */
+.navbar-container{
+  display: flex;
+  position: absolute;
+  width: 100vw;
+  height: 3rem;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  z-index: 9999;
+}
+.navbar{
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  width: 400px;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-item{
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none;
+    z-index: 9999;
+}
+.nav-item:hover{
+  cursor: pointer;
+}
+
+.cursor{
+  display: none;
+  pointer-events: none;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 9999;
+  background-color: var(--dark);
+}
+
+#canvas{
+  position: absolute;
+  top:0;
+  z-index: 1;
+}
+
+.content-container{
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+}
+.about-container{
+  display: flex;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--dark);
+  top: 0;
+  left: 0;
+  justify-content: center;
+  align-items: center;
+  z-index: 9998;
+  display: none;
+  opacity: 0;
+  transition: opacity 0.25s. linear;
+}
+.about-container > div{
+  display: flex;
+  flex-direction: column;
+  max-width: 60%;
+  width: 60%;
+}
+.content-container > div{
+  width: 50%;
+  margin-left: 25%;
+}
+
+.margins{
+  margin-bottom: 10rem;
+  margin-top: 10rem;
+}
+
+.overview-container{
+  box-sizing: border-box;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  z-index: 3;
+  right: 0;
+  top: 0;
+
+  /*background-color: var(--dark);*/
+
+  padding: 0rem 2rem 0rem 2rem;
+  justify-content: center;
+  margin-bottom: 5rem;
+  margin-top: 5rem;
+}
+.overview-container > div{
+  width: 40%;
+  margin-left: 25%;
+}
+
+iframe{
+  border-style: none;
+}
+
+.banner-image{
+  max-width: 100%;
+}
+.point{
+  width: 60%;
+  border: none;
+  border-top: grey solid 1px;
+  display: flex;
+  padding: 2rem 2rem 2rem 0rem;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.scrollbar{
+  position: absolute;
+  z-index: 999;
+  background-color: var(--light);
+  width: 0.5rem;
+  height: 100px;
+  margin: 0;
+  padding: 0;
+}

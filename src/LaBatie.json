@@ -1,0 +1,56 @@
+{
+	"overview": {
+		"names": ["Thomas Tran", "Avril Yang", "Linda Liu", "Michelle Illing", "Zaac Agnes"],
+		"roles": ["Interaction Design", "Secondary Research", "Prototyping"],
+		"tools": ["After Effects", "Photoshop", "Figma"],
+		"desc":["In this project, we were tasked to create a visual brand identity for La Batie - Festival de Geneve through extrapolation of design principles from reknowned designers Wim Crouwel and Dan Friedman expressed in the form of a microsite."],
+		"title":["Overview"],
+    "length":["4 weeks"]
+	},
+  "about": {
+    "desc":["La Bâtie comprises some forty productions, each exemplifying the best of contemporary works from home and abroad. It takes place during 18 days in the Grand Genève. This project is focused on the cabaret portion of the festival, Le Poudrier, which features performances containing themes from the drag arts and erotica."],
+    "title":["About"]
+  },
+  "intent":{
+    "title": "Intent",
+    "desc": "The microsite intends to promote drag artists (who are often marginalized, niche and underpaid) through interactions that entice users and promote exploration of the talent that these artists provide. The site is intended to showcase a post-show experience, mainly for attendees to re-visit memorable experiences from the event."
+  },
+	"identity":{
+		"title": "Developing a Visual Identity",
+		"desc": "To create a unique identity for the event, we started with a lateral, deep graphic exploration and experimentation by studying the works of Wim Crouwel and Dan Friedman. The purpose of this exercise was to extract Design Qualities present in many of their works which we would then synthesize to develop this visual and interactive identity."
+	},
+	"dan":{
+		"title": "Initial Design Qualities",
+		"desc": "The most valuable insight we got from studying Dan Friedman came from an interview he did with Eye Magazine, which he says:",
+		"desc2": "This quote alone is invaluable because it gave us a different perspective on how to look at typography. That the function of unpredicability in type serves to entice the user to even want to read the type to begin with, and that good typography is a balancing act between order (being able to read the type) and chaos (enticing viewers to actually want to read the type)"
+	},
+	"finalQualities":{
+		"title": "Iterating on Design Qualities",
+		"desc": "After going back and exploring more works and iterating on the process of pulling more design qualities, we ultimately ended on the following."
+	},
+
+	"graphicExp":{
+		"title": "Graphic Exploration",
+		"desc": "From the extracted design qualities, we developed static visual graphics to put into practice the qualities we learned from Wim Crouwel and Dan Friedman. The goal was to see if what we extraced from our exploration was usable. I was involved in the creation of the following assets."
+	},
+	"interactionExp":{
+		"title": "Interaction Exploration",
+		"desc": "We began exploring how might interaction communicate varying levels of expression which would couple well with the visual identity exploration and the design qualities extracted. I had the most involvement in developing the prototype interactions and motion graphics of the following examples."
+	},
+	"converge":{
+		"title": "Converging ideas",
+		"desc": "The team felt strongly about pursuing either direction. Ultimately we chose to pursue a design that further played on the mysterious, seductive qualities of the cabaret shows and performers. The team had an idea to further push this project to not only create a microsite to market the Le Poudrier, but to also add a merchandising component to provide extra finanicial support for the cabaret performers."
+	},
+	"framing":{
+		"title": "Insights and Framing",
+		"desc": "The team developed 3 key insights of the project to use as a communication tool to articulate the 'why' behind the project. To communicate that the purpose of the microsite is more than just an exploration of experimental graphics."
+	},
+	"intervention":{
+		"title": "Final Deliverables",
+		"desc": "The final deliverables included a microsite prototype demo as well as a slide deck. I focused specifically on the development of interactions and motion graphics of the prototype demo part of the deliverable. The foundation of many of the interaction ideas were supported by Dan Friedman's idea on balancing legibility (order) and unpredicability (chaos)."
+	},
+	"takeaways":{
+		"title": "Final Takeaways",
+		"desc": "Although there was a development in software skills especially in After Effects, I felt I got the most value through laterally studying the works of other great designers and I do not believe we would have been nearly as successful without the iterative process of constantly going back and exploring and examining many, many works."
+	}
+}

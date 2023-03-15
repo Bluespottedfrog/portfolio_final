@@ -1,0 +1,45 @@
+{
+	"overview": {
+		"names": ["Thomas Tran", "Avril Yang", "Linda Liu", "Michelle Illing", "Zaac Agnes"],
+		"roles": ["UX Research", "Prototyping", "Interaction Design"],
+		"tools": ["After Effects", "Photoshop", "Figma"],
+		"desc":["The goal of this project was to find a client with an experience design problem and propose an experience design solution. After research, exploration and design sprints, the final solution took form in a website redesign centered around featuring the Italian boutique suppliers of Italist."],
+		"title":["Overview"],
+    "length":["4 weeks"]
+	},
+  "about": {
+    "desc":["Italist is an online luxury marketplace seller based in Los Angeles, that partners with Italian boutiques. They offer authentic luxury items at discounted prices by providing express shipping to global customers and sell their products at Italian prices, bring luxury goods to their customers cheaper and faster."],
+    "title":["About Italist"]
+  },
+  "bvp": {
+    "desc":["After reviewing Italist's mission along with reviews regarding the company, the team synthesized 3 main brand pillars that would help build the foundations of our project:"],
+    "title":["Brand Value Pillars"],
+		"desc2":["We analysed and synthesized how Italist delivers value through the brand value pillars."]
+  },
+	"insights": {
+    "desc":["Upon research of online reviews, articles, interviews and various studies on customer behavior. The insights from our primary and secondary research revealed to us what luxury brand fashion consumers care about beyond pricing and shipping that influence their decision to buy."],
+    "title":["Insights from Research"]
+  },
+	"hmw":{
+		"title":"Framing",
+		"desc":["One key aspect about Italist that separates them from other luxury brand retailers (besides price) is their connections with authentic italian boutiques. We felt that we could leverage this connection to develop a brand less focused on a place that offers the best price, but also one that provides an experience of an authentic, Italian shopping experience and atmosphere."]
+	},
+	"problem":{
+		"title":"Problem Statement",
+		"desc":["Italist's customers are not being served meaningful content about Italian boutiques because the content is hidden between sale banners and hundreds of popular brands. From here we developed the following question that we needed to answer."],
+		"desc2":["How might we better surface Italist's partnerships with small Italian boutiques in order to provide a shopping experience that aligns with the values of luxury brand fashion consumers?"]
+	},
+	"solution":{
+		"title":"Solution: A Web Redesign With a New Focus",
+		"desc":["The aim was to better connect customers with the brands and boutiques to build familiarity, communicate a sense of an authentic and Italian shopping experience without getting in the way of communicating Italist's discounted pricing."]
+	},
+	"strat":{
+		"title": "Content Strategy",
+		"desc":["The strength in the design solution lies in the content that we have chosen to surface for this site. These content design decisions were based on the key research insights and can be broken down into 3 key focuses:"]
+	},
+	"takeaways":{
+		"title": "Learning Takeaways",
+		"desc":["I have not worked on an experience design project prior to this one, so there were many valuable takeaways from working on this project. Understanding what experience design is from a perspective of how we can bring value to users (in this case through content, interaction and visual design) and strategy development through sprints was something new and invaluable to me."]
+	}
+
+}
